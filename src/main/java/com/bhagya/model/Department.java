@@ -5,7 +5,8 @@ import java.util.Set;
 
 @Entity
 @Table(name = "Department")
-public class Department {
+public class
+Department {
 
     @EmbeddedId
     DepartmentId departmentId;
